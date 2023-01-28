@@ -32,7 +32,5 @@ describe("home page", () => {
         cy.location("pathname").should("eq", "/cypress-fundamentals")
       })
     })
-    
-    
   })
 })
